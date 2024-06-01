@@ -1,0 +1,166 @@
+.footers{
+    background-image: url(../../assets/footer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 96vh;
+}
+.footer{
+    
+    height: 65vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.footer img{
+    width: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.email{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.f2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.f2 p{
+    width: 350px;
+}
+.input{
+    background-color: white;
+    width:300px;
+    color: black;
+    padding: 10px;
+}
+.input input{
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+    width: 250px;
+}
+.input i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.footer-last{
+    
+    color: white;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fl1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 15vh;
+}
+.fl2{
+    display: flex;
+    align-items: center;
+    height: 13vh;
+}
+.fl1 img{
+    width: 100px;
+    border-radius: 50%;
+   
+}
+
+.fl2 img{
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.copyright{
+    margin-top: 25px;
+    font-weight: bold;
+}
+.social i{
+    margin-left: 20px;
+    cursor: pointer;
+    color: rgb(188, 188, 188);
+    font-size: 23px;
+
+}
+.social i:hover{
+    color: white;
+}
+
+.social1{
+    margin-left: 17px;
+}
+
+.fl3 p a{
+    color: white;
+}
+.fl3 h2{
+    margin-bottom: 30px;
+    color: red;
+}
+
+@media (max-width: 431px){
+    .footers{
+        width: 780px;
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+        margin-right: 20px;
+    }
+    .f1{
+        width: 70%;
+    }
+    .address p{
+        width: 300px;
+    }
+    .footer{
+        font-size: 14px;
+
+    }
+    .social{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .social i{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    
+}

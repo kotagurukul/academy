@@ -1,0 +1,89 @@
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url('https://lh3.googleusercontent.com/p/AF1QipOvtUuYE3v8Vtr3F5y8vjyelCxn-n-dhnjNvHJp=s1360-w1360-h1020');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 1530px;
+}
+.hero-content{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+.hero-content h1{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-content p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.hero-content p span{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(241, 86, 86);
+}
+.exploreBtn{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exploreBtn .arrow-icon{
+    width: 20px;
+    margin-left: 10px;
+    transition: width 0.3s;
+    transform-origin: left;
+}
+.exploreBtn:hover .arrow-icon{
+    width: 30px; /* width on hover */
+}
+@media (max-width: 431px) {
+    .hero-content{
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
+    }
+    .hero-content h1 {
+        font-size: 25px;
+    }
+    .hero{
+        width: 782px;
+        height: 100vh;
+    }
+    .hero-content p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .hero-content p span{
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(241, 86, 86);
+    }
+    .exploreBtn{
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    .exploreBtn .arrow-icon{
+        width: 20px;
+        margin-left: 10px;
+        transition: width 0.3s;
+        transform-origin: left;
+    }
+    .exploreBtn:hover .arrow-icon{
+        width: 30px; /* width on hover */
+    }
+}
